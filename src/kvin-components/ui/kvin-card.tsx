@@ -29,7 +29,7 @@ const KvinCardHeader = React.forwardRef<
 KvinCardHeader.displayName = "KvinCardHeader";
 
 const KvinCardTitle = React.forwardRef<
-  HTMLParagraphElement,
+  HTMLHeadingElement,
   React.HTMLAttributes<HTMLHeadingElement>
 >(({ className, ...props }, ref) => (
   <h3
