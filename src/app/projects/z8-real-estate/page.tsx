@@ -5,8 +5,7 @@ const projectDetails = {
   title: "Z8 Real Estate",
   shortDescription:
     "A SaaS real estate platform for property listings, agent management, and client interactions.",
-  image:
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop",
+  image: "/z8.png",
   stack: [
     "React.js",
     "TypeScript",
@@ -35,7 +34,7 @@ export default function PortfolioCmsPage() {
         <img
           src={projectDetails.image}
           alt={projectDetails.title}
-          className="mt-8 h-[420px] w-full rounded-3xl object-cover"
+          className="mt-8 h-full w-full rounded-3xl object-cover"
         />
         <div className="mt-8">
           <h3>Tech Stack</h3>

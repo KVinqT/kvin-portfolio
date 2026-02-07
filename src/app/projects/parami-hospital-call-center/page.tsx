@@ -5,8 +5,7 @@ const projectDetails = {
   title: "Parami Hospital Call Center",
   shortDescription:
     "Admin analytics dashboard which is used by doctor assistants and customer service team to manage patient appointments, call logs, and medical records efficiently.",
-  image:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600&auto=format&fit=crop",
+  image: "/parami.png",
   stack: [
     "React.js",
     "TypeScript",
@@ -35,7 +34,7 @@ export default function ParamiHospitalCallCenterPage() {
         <img
           src={projectDetails.image}
           alt={projectDetails.title}
-          className="mt-8 h-[420px] w-full rounded-3xl object-cover"
+          className="mt-8 h-full w-full rounded-3xl object-cover"
         />
         <div className="mt-8">
           <h3>Tech Stack</h3>

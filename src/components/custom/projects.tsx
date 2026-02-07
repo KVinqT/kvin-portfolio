@@ -4,8 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const projects = [
   {
     title: "Parami Hospital Call Center",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600&auto=format&fit=crop",
+    image: "/parami.png",
     description:
       "Admin analytics dashboard which is used by assistant doctors and customer service team to manage patient appointments, call logs, and medical records efficiently",
     href: "/projects/parami-hospital-call-center",
@@ -20,18 +19,8 @@ const projects = [
     ],
   },
   {
-    title: "Royal Express Cargo Tracking System",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop",
-    description:
-      "A cargo tracking system for Royal Express that enables the customer service team to track shipment locations and detailed status updates, improving customer satisfaction",
-    href: "/projects/cargo-tracking-system",
-    stack: ["Next.js", "TypeScript", "Express.js", "Prisma", "Material UI"],
-  },
-  {
     title: "Z8 Real Estate ( In Development )",
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop",
+    image: "z8.png",
     description:
       "A SaaS real estate platform for property listings, agent management, and client interactions.",
     href: "/projects/z8-real-estate",
@@ -44,6 +33,14 @@ const projects = [
       "Tanstack Router",
       "Firebase Cloud Messaging",
     ],
+  },
+  {
+    title: "Royal Express Cargo Tracking System",
+    image: "/re-mockup.png",
+    description:
+      "A cargo tracking system for Royal Express that enables the customer service team to track shipment locations and detailed status updates, improving customer satisfaction",
+    href: "/projects/cargo-tracking-system",
+    stack: ["Next.js", "TypeScript", "Express.js", "Prisma", "Material UI"],
   },
   {
     title: "Music Recommendation System",

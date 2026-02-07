@@ -5,8 +5,7 @@ const projectDetails = {
   title: "Cargo Tracking System",
   shortDescription:
     "A cargo tracking system for Royal Express that enables the customer service team to track shipment locations and detailed status updates, improving customer satisfaction.",
-  image:
-    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop",
+  image: "/re-mockup.png",
   stack: ["Next.js", "TypeScript", "Express.js", "Prisma", "Material UI"],
   companyWebsite: "https://www.royalx.net/",
 };
@@ -27,7 +26,7 @@ export default function AnalyticsPlatformPage() {
         <img
           src={projectDetails.image}
           alt={projectDetails.title}
-          className="mt-8 h-[420px] w-full rounded-3xl object-cover"
+          className="mt-8 h-full w-full rounded-3xl object-cover"
         />
         <div className="mt-8">
           <h3>Tech Stack</h3>
