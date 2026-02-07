@@ -11,8 +11,8 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@/kvin-components",
+    "components": "@/components",
     "utils": "@/kvin-helpers",
-    "ui": "@/kvin-components/ui"
+    "ui": "@/components/ui"
   }
 }

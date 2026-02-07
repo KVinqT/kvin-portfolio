@@ -1,18 +1,17 @@
 import type { Config } from "tailwindcss";
 
 const portfolioConfig: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
       colors: {
-        kvinPrimary: "#4f46e5",
-        kvinSecondary: "#06b6d4",
-        kvinAccent: "#f59e0b",
+        primary: "#ffffff",
+        secondary: "#000000",
+        textMuted: "rgba(255, 255, 255, 0.7)",
       },
       fontFamily: {
-        kvinDisplay: ["Inter", "system-ui", "sans-serif"],
+        sans: ["var(--font-manrope)", "system-ui", "sans-serif"],
+        display: ["var(--font-dyna-puff)", "system-ui", "sans-serif"],
       },
     },
   },
